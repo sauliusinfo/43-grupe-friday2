@@ -14,12 +14,12 @@ body {
 }
 
 .container {
-    /* display: flex; */
     height: 50px;
     margin: 10px 1em;
     padding-left: 10px;
     padding-right: 10px;
     /* background: pink; */
+    display: flex;
     flex: 0 1 20%;
 }
 
@@ -36,10 +36,10 @@ body {
     color: rgb(243, 77, 51);
     align-items: center;
     justify-content: center;
-    /* background-color: aqua; */
 }
 
 .container:nth-child(n+9):nth-child(-n+12) {
+    display: flex;
     height: auto;
 }
 
@@ -49,7 +49,6 @@ body {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 600;
-    /* background-color: #662b8c; */
 }
 
 .image-text {
@@ -59,7 +58,23 @@ body {
 }
 
 img {
+    position: absolute;
     max-width: 75%;
     margin: 0;
-    /* background-color: #662b8c; */
+    background-color: blueviolet;
+}
+
+.digits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    top: -125px;
+    left: -114px;
 }
