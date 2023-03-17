@@ -1,0 +1,13 @@
+{
+  "name": "43-grupe-friday2",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=43000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sauliusinfo (https://github.com/sauliusinfo)",
+  "license": "MIT"
+}
