@@ -13,6 +13,7 @@ body {
 }
 
 .container {
+    /* display: flex; */
     height: 50px;
     margin: 10px 1em;
     padding-left: 10px;
@@ -22,13 +23,19 @@ body {
 }
 
 .container:nth-child(n+1):nth-child(-n+4) {
-    background: orange;
+    display: flex;
+    /* background: orange; */
     height: 250px;
+    align-items: center;
+    justify-content: center;
 }
 
 .container:nth-child(n+5):nth-child(-n+8) {
+    display: flex;
     color: rgb(243, 77, 51);
     align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
 }
 
 .container:nth-child(n+9):nth-child(-n+12) {
@@ -39,6 +46,7 @@ body {
     margin: 0;
     text-align: center;
     text-transform: uppercase;
+    /* background-color: #662b8c; */
 }
 
 .image-text {
@@ -48,7 +56,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 75%;
     margin: 0;
-    background-color: #662b8c;
+    /* background-color: #662b8c; */
 }
