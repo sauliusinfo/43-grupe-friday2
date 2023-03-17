@@ -4,9 +4,10 @@ body {
 }
 
 .main-content-container {
-    max-width: 1100px;
+    max-width: 1050px;
     margin: 0 auto;
-    padding: 200px;
+    margin-top: 100px;
+    padding: 10px;
     /* background: green; */
     display: flex;
     flex-flow: row wrap;
