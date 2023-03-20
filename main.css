@@ -8,9 +8,10 @@ body {
     margin: 0 auto;
     margin-top: 100px;
     padding: 10px;
-    /* background: green; */
+    background: green;
     display: flex;
     flex-flow: row wrap;
+    order: 1;
 }
 
 .container {
@@ -20,7 +21,7 @@ body {
     padding-right: 10px;
     /* background: pink; */
     display: flex;
-    flex: 0 1 20%;
+    flex: 0 1 210px;
 }
 
 .container:nth-child(n+1):nth-child(-n+4) {
@@ -33,6 +34,7 @@ body {
 
 .container:nth-child(n+5):nth-child(-n+8) {
     display: flex;
+    /* background-color: aquamarine; */
     color: rgb(243, 77, 51);
     align-items: center;
     justify-content: center;
@@ -40,6 +42,7 @@ body {
 
 .container:nth-child(n+9):nth-child(-n+12) {
     display: flex;
+    /* background-color: aqua; */
     height: auto;
 }
 
